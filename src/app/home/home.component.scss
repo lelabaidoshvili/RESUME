@@ -1,0 +1,47 @@
+.container {
+   position: relative;
+
+ }
+.background {
+  margin-top: 0;
+  width: 1920px;
+  height: 1080px;
+
+}
+
+.logo{
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  width: 236px;
+  height: 38px;
+
+}
+.line{
+  position: absolute;
+  bottom: 850px;
+  left: 100px;
+  background-color: #b9b8b8;
+  width: 90%;
+  height: 3px;
+
+}
+
+.logo-gray {
+  width: 299px;
+  height: 299px;
+  position: absolute;
+  top: 200px;
+  left: 500px;
+}
+
+.button {
+  width: 364px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 450px;
+  left: 750px;
+  border-radius: 5px;
+}
