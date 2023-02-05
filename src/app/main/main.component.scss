@@ -1,5 +1,55 @@
-.logo-gray {
-  width: 400px;
-  height: 200px;
-  background-color: red;
+.container {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.personal-info {
+  margin: 0;
+  background-color: #F9F9F9;
+  width: 1000px;
+  height: 100%;
+}
+.personal-info_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1100px
+}
+
+.personal-info_item_point {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  padding: 11px;
+  border-radius: 100%;
+  border: 1px solid transparent;
+  height: 30px;
+}
+p {
+  color: #6e6d6d;
+  font-size: 18px;
+}
+h2 {
+  color: #4d4c4c;
+  font-size: 23px;
+
+}
+.personal-info_items {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+
+personal-info_info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.personal-info_line {
+  width: 1050px;
+  height: 1px;
+  background-color: #6e6d6d;
+  margin-left: 110px;
 }
