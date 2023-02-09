@@ -1,0 +1,147 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+}
+.personal-info {
+  display: flex;
+  flex-direction: column;
+}
+.personal-info_item {
+  margin: 0;
+  background-color: #F9F9F9;
+  width: 1080px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.personal-info_item_label {
+  color: #6e6d6d;
+  font-size: 18px;
+}
+.personal-info_header_point {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  padding: 11px;
+  border-radius: 100%;
+  border: 1px solid transparent;
+  height: 30px;
+}
+p {
+  color: #6e6d6d;
+  font-size: 18px;
+}
+h2 {
+  color: #4d4c4c;
+  font-size: 23px;
+
+}
+.personal-info_header {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+.personal-info_line {
+  width: 920px;
+  height: 1px;
+  background-color: #6e6d6d;
+  margin-left: 110px;
+}
+.live-form {
+    position: absolute;
+    left: 60%;
+    top: 0;
+    width: 822px;
+    height: 1000px;
+    background-color: white;
+
+}
+.personal-info_form {
+  position: absolute;
+  left: 110px;
+  top: 100px;
+}
+.personal-info_item {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+  width: 920px;
+
+}
+.personal-info_item_name {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  width: 370px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #BCBCBC;
+}
+.personal-info_photo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 64px;
+  width: 380px;
+}
+
+.add-photo {
+  font-size: 17px;
+}
+.add-photo_button {
+  background-color: #0E80BF;
+  border: 1px solid transparent;
+  color: #F9F9F9;
+  width: 100px;
+  height: 27px;
+}
+.personal-info_description {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.personal-info_description_input {
+  width: 920px;
+  height: 120px;
+  border-radius: 5px;
+  border: 1px solid #BCBCBC;
+}
+.personal-info_email {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.personal-info_email_label {
+  margin-top: 20px;
+  color: #6e6d6d;
+  font-size: 18px;
+}
+.personal-info_email_input {
+  margin-top: 10px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #BCBCBC;
+}
+.next {
+  position: absolute;
+  right: 100px;
+  margin-top: 100px;
+  width: 151px;
+  height: 48px;
+  border: solid 1px transparent;
+  border-radius: 5px;
+  background-color: #6B40E3;
+
+  p {
+    margin: auto;
+    color: #F9F9F9;
+  }
+}
